@@ -1,6 +1,6 @@
 patch:
   # 候选词个数
-  menu/page_size: 9
+  menu/page_size: 10
   # 候选窗样式
   style:
     # 字体设置
@@ -29,3 +29,8 @@ patch:
     max_width: 40 # 最大宽度（防止过宽）
     min_height: 0 # 高度由 page_size 决定
     max_height: 0
+
+  # 按键绑定 - 逗号句号翻页
+  key_binder/bindings/+:
+    - { when: paging, accept: comma, send: Page_Up }
+    - { when: has_menu, accept: period, send: Page_Down }
