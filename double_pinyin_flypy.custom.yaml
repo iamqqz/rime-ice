@@ -1,0 +1,27 @@
+# double_pinyin_flypy.custom.yaml
+patch:
+  # 让预编辑区（输入框）只显示原始码 uu
+  "translator/preedit_format": []
+  # 在候选词旁边显示映射后的全拼（如：书 [shu]）
+  # gtranslator/spelling_hints": 9
+  # "translator/comment_format":
+  # - "xform/^/ /" # 在提示前加个空格
+
+  # 可选：调整候选词数量
+  # menu/page_size: 9
+  # 启用 Lua 翻译器（用于 date/time 等动态短语）
+  # engine/translators/@next: lua_translator
+  # lua_translator:
+  #   module: rime # 对应 rime.lua
+
+  # 关键：在此方案中显式添加自定义短语翻译器
+  # engine/translators/@next: table_translator@custom_phrase
+  #
+  # custom_phrase:
+  #   dictionary: ""
+  #   user_dict: custom_phrase    # 对应 custom_phrase.txt
+  #   enable_completion: false
+  #   enable_sentence: false
+  #   initial_quality: 100000     # 高优先级
+  #
+  #

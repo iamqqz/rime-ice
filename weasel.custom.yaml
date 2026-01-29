@@ -23,7 +23,8 @@ patch:
     name: "现代化深色／Modern Dark"
     shadow_color: 0x000000b4
     text_color: 0xCCCCCC
-  "style/candidate_format": "%c %@"
+  # "style/candidate_format": "%c %@"
+  # "style/horizontal": false # 候选项横排：true；false
   "style/color_scheme": modern_dark
   "style/color_scheme_dark": modern_dark
   "style/comment_font_face": "JetBrainsMono Nerd Font"
@@ -45,3 +46,4 @@ patch:
   "style/layout/shadow_offset_y": 3
   "style/layout/shadow_radius": 5
   "style/layout/spacing": 15
+
