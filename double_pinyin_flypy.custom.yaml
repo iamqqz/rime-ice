@@ -1,6 +1,6 @@
 # double_pinyin_flypy.custom.yaml
 patch:
-  # 让预编辑区（输入框）只显示原始码 uu
+  # 让预编辑区（输入框）只显示原始码 例如 "输"字，打 uu 显示 uu 而不是显示 shu
   "translator/preedit_format": []
   # 在候选词旁边显示映射后的全拼（如：书 [shu]）
   # gtranslator/spelling_hints": 9
