@@ -2,54 +2,46 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.17.4
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Thu Jan 17 16:12:05 2026"
+  modified_time: "Mon Jan 26 20:43:42 2026"
   rime_version: 1.13.1
 patch:
-  # 配色方案设置
-  "style/color_scheme": modern_dark
-  "style/color_scheme_dark": modern_dark
-  
-  # 字体设置
-  "style/font_face": "JetBrainsMono Nerd Font, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Microsoft YaHei UI, Segoe UI, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
-  "style/label_font_face": "JetBrainsMono Nerd Font"
-  "style/comment_font_face": "JetBrainsMono Nerd Font"
-  "style/font_point": 18
-  "style/label_font_point": 16
-  "style/comment_font_point": 15
-  
-  # 标签格式
-  "style/label_format": "%s."
-  
-  # 布局设置
-  "style/layout/border_width": 2
-  "style/layout/margin_x": 12
-  "style/layout/margin_y": 12
-  "style/layout/spacing": 15
-  "style/layout/candidate_spacing": 25
-  "style/layout/hilite_spacing": 10
-  "style/layout/hilite_padding": 12
-  "style/layout/shadow_radius": 5
-  "style/layout/shadow_offset_x": 3
-  "style/layout/shadow_offset_y": 3
-  "style/layout/corner_radius": 10
-  "style/layout/round_corner": 8
-  
-  # 自定义配色方案
   "preset_color_schemes/modern_dark":
-    name: "现代化深色／Modern Dark"
     author: Custom
-    text_color: 0xCCCCCC
     back_color: 0x2D2D30
     border_color: 0x3E3E42
-    shadow_color: 0x000000b4
-    label_color: 0x969696
-    comment_text_color: 0x6A9955
     candidate_text_color: 0xFFFFFF
-    hilited_text_color: 0xFFFFFF
+    comment_text_color: 0x6A9955
     hilited_back_color: 0x2D2D30
-    hilited_label_color: 0x569CD6
-    hilited_comment_text_color: 0xB5CEA8
-    hilited_candidate_text_color: 0xFFFFFF
     hilited_candidate_back_color: 0x0E639C
     hilited_candidate_border_color: 0x264F78
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0xB5CEA8
+    hilited_label_color: 0x569CD6
     hilited_mark_color: 0x569CD6
+    hilited_text_color: 0xFFFFFF
+    label_color: 0x969696
+    name: "现代化深色／Modern Dark"
+    shadow_color: 0x000000b4
+    text_color: 0xCCCCCC
+  "style/candidate_format": "%c %@"
+  "style/color_scheme": modern_dark
+  "style/color_scheme_dark": modern_dark
+  "style/comment_font_face": "JetBrainsMono Nerd Font"
+  "style/comment_font_point": 15
+  "style/font_face": "JetBrainsMono Nerd Font, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Microsoft YaHei UI, Segoe UI, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
+  "style/font_point": 20
+  "style/label_font_face": "JetBrainsMono Nerd Font"
+  "style/label_font_point": 16
+  "style/label_format": "%s."
+  "style/layout/border_width": 2
+  "style/layout/candidate_spacing": 25
+  "style/layout/corner_radius": 10
+  "style/layout/hilite_padding": 12
+  "style/layout/hilite_spacing": 10
+  "style/layout/margin_x": 12
+  "style/layout/margin_y": 12
+  "style/layout/round_corner": 8
+  "style/layout/shadow_offset_x": 3
+  "style/layout/shadow_offset_y": 3
+  "style/layout/shadow_radius": 5
+  "style/layout/spacing": 15
